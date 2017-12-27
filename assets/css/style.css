@@ -1510,8 +1510,8 @@ Icon for all respective meta
 	position: fixed;
 	display: none;
 	z-index: 999;
-	bottom: 1.8em;
-	right: 1.8em;
+	bottom: 6em;
+	right: 2.5em;
 }
 
 .scroll-up a {
@@ -1789,4 +1789,9 @@ Icon for all respective meta
     border: 5px solid #FFF;
     padding: 5px;
     box-shadow: 0 0px 0px 1px #eee;
+}
+
+.langIcon {
+    width: 32px;
+    height: 19px;
 }
