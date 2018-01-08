@@ -283,10 +283,10 @@ jQuery(function ($) {
 
             var mapOptions = {
                 zoom: 15,
-                scrollwheel: false,
+                scrollwheel: true,
                 center: myLatlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
-                disableDefaultUI: true,
+                disableDefaultUI: false,
                 styles: styles
             }
             var map = new google.maps.Map(document.getElementById('mapCanvas'), mapOptions);
