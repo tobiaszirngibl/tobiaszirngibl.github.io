@@ -71,6 +71,29 @@ border-color: white;
 /*---------------------
 	Helper CSS
 -----------------------*/
+
+.task-list {
+    color: white;
+   
+}
+
+.task-list-item {
+    margin: 10px !important; 
+    
+}
+
+.task-list-item:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    border-radius: 50px;
+    background: #cacaca;
+    top: 30px;
+    left: -118px;
+}
+
 .fa:hover {
         transition-duration: 0.4s;
 
@@ -526,7 +549,7 @@ border-color: white;
 	margin-bottom: 0;
 }
 
-.resume-list li:after {
+.resume-list li:after:not(.nodot) {
 	position: absolute;
 	content: '';
 	width: 15px;
@@ -537,6 +560,8 @@ border-color: white;
 	top: 30px;
 	left: -118px;
 }
+
+
 
 .resume-list h2 {
 	font-size: 72px;
